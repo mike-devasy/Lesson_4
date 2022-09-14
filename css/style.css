@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
+@font-face {
+  font-family: "Larsseit";
+  src: url(../fonts/Larsseit.woff2) format(woff2),
+    url(../fonts/Larsseit.woff) format(woff);
+  font-display: swap;
+  font-weidth: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larsseit-Medium";
+  src: url(../fonts/Larsseit-Medium.woff2) format(woff2),
+    url(../fonts/Larsseit-Medium.woff) format(woff);
+  font-display: swap;
+  font-weidth: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larsseit-Bold";
+  src: url(../fonts/Larsseit-Bold.woff2) format(woff2),
+    url(../fonts/Larsseit-Bold.woff2) format(woff);
+  font-display: swap;
+  font-weidth: 700;
+  font-style: normal;
+}
+body {
+  width: 700px;
+  padding: 15px;
+}
+main {
+  padding: 15px;
+}
+.carrier p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+}
+h1,
+h3,
+h4 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 30px;
+}
+h3 {
+  font-weight: 400;
+}
+h4 {
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: underline;
+  text-align: center;
+}
+.carrier .junior {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: italic;
+}
+.tasks {
+  font-family: "Larsseit";
+  color: chocolate;
+  font-weight: 400;
+}
+.tasks .advantages {
+  font-family: "Larsseit";
+  font-weight: 500;
+  font-size: 20px;
+  color: darkblue;
+}
+.senior-tasks {
+  font-family: "Larsseit";
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(125, 109, 139);
+}
+.senior-tasks .design {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: crimson;
+}
+.senior-tasks .communication {
+  font-family: "Lato";
+  font-weight: 700;
+  color: blueviolet;
+}
+footer {
+  line-height: 25px;
+  background-color: rgb(247, 80, 80);
+  color: #fff;
+}
